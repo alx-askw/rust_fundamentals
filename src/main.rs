@@ -1,3 +1,4 @@
+mod activities;
 fn main() {
-    println!("Hello, world!");
+    activities::one_guessing_game::guessing_game::guessing_game();
 }
